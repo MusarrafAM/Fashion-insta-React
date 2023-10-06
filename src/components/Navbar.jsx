@@ -9,14 +9,14 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-black border-b border-b-[#5C5958]">
+    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 lg:px-0 text-black border-b-2 border-b-[#5C5958] ">
       <h1 className="w-full text-3xl font-bold text-[#5C5958]">Fashioninsta</h1>
-      <ul className="hidden md:flex bg-[#310000] text-white rounded-2xl lg:mr-[250px] md:mr-[100px]">
-        <li className="pt-4 px-4 m-2 hover:bg-[#FE5F38] rounded-lg min-w-[100px] cursor-pointer">Home</li>
-        <li className="p-4 m-2 hover:bg-[#FE5F38] rounded-lg min-w-[100px] cursor-pointer">Men</li>
-        <li className="p-4 m-2 hover:bg-[#FE5F38] rounded-lg min-w-[100px] cursor-pointer">Women</li>
-        <li className="p-4 m-2 hover:bg-[#FE5F38] rounded-lg min-w-[100px] cursor-pointer">Kids</li>
-        <li className="p-4 m-2 hover:bg-[#FE5F38] rounded-lg min-w-[100px] cursor-pointer">Login</li>
+      <ul className="hidden md:flex bg-[#310000] text-white rounded-2xl lg:mr-[350px] md:mr-[50px] text-center">
+        <li className="p-2 my-2 mr-2 ml-2 hover:bg-[#FE5F38] rounded-lg min-w-[80px] cursor-pointer">Home</li>
+        <li className="p-2 my-2 mr-2 hover:bg-[#FE5F38] rounded-lg min-w-[80px] cursor-pointer">Men</li>
+        <li className="p-2 my-2 mr-2 hover:bg-[#FE5F38] rounded-lg min-w-[80px] cursor-pointer">Women</li>
+        <li className="p-2 my-2 mr-2 hover:bg-[#FE5F38] rounded-lg min-w-[80px] cursor-pointer">Kids</li>
+        <li className="p-2 my-2 mr-2 hover:bg-[#FE5F38] rounded-lg min-w-[80px] cursor-pointer">Login</li>
       </ul>
       <div onClick={handleNav} className="block md:hidden cursor-pointer">
         {/* This size is react icon property */}
