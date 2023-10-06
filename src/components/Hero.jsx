@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
       </div>
       {/* Carousel */}
-      <div >
+      <div className="pt-[120px] md:pt-[20px]">
         <EmblaCarousel />
       </div>
     </div>
