@@ -12,11 +12,11 @@ const Navbar = () => {
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 lg:px-0 text-black border-b-2 border-b-[#5C5958] ">
       <h1 className="w-full text-3xl font-bold text-[#5C5958]">Fashioninsta</h1>
       <ul className="hidden md:flex bg-[#310000] text-white rounded-2xl lg:mr-[350px] md:mr-[50px] text-center">
-        <li className="p-2 my-2 mr-2 ml-2 hover:bg-[#FE5F38] rounded-lg min-w-[80px] cursor-pointer">Home</li>
-        <li className="p-2 my-2 mr-2 hover:bg-[#FE5F38] rounded-lg min-w-[80px] cursor-pointer">Men</li>
-        <li className="p-2 my-2 mr-2 hover:bg-[#FE5F38] rounded-lg min-w-[80px] cursor-pointer">Women</li>
-        <li className="p-2 my-2 mr-2 hover:bg-[#FE5F38] rounded-lg min-w-[80px] cursor-pointer">Kids</li>
-        <li className="p-2 my-2 mr-2 hover:bg-[#FE5F38] rounded-lg min-w-[80px] cursor-pointer">Login</li>
+        <li className="p-2 my-2 mr-2 ml-2 hover:bg-[#FE5F38] duration-300 rounded-lg min-w-[80px] cursor-pointer">Home</li>
+        <li className="p-2 my-2 mr-2 hover:bg-[#FE5F38] duration-300 rounded-lg min-w-[80px] cursor-pointer">Men</li>
+        <li className="p-2 my-2 mr-2 hover:bg-[#FE5F38] duration-300 rounded-lg min-w-[80px] cursor-pointer">Women</li>
+        <li className="p-2 my-2 mr-2 hover:bg-[#FE5F38] duration-300 rounded-lg min-w-[80px] cursor-pointer">Kids</li>
+        <li className="p-2 my-2 mr-2 hover:bg-[#FE5F38] duration-300 rounded-lg min-w-[80px] cursor-pointer">Login</li>
       </ul>
       <div onClick={handleNav} className="block md:hidden cursor-pointer">
         {/* This size is react icon property */}
@@ -25,7 +25,7 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#310000] text-white ease-in-out duration-500"
+            ? "fixed z-10 left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#310000] text-white ease-in-out duration-500"
             : "fixed left-[-100%]"
         }
       >
