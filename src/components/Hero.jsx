@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 const Hero = () => {
   return (
-    <div className="bg-[#FEF6F3] w-full h-screen">
+    <div className="hero bg-[#FEF6F3] w-full">
       <Navbar />
       <div className="grid grid-cols-3 py-10 max-w-[1240px] mx-auto">
         <p className="hidden lg:block p-1 max-w-[300px]">
