@@ -2,7 +2,7 @@ import React from "react";
 
 const Values = () => {
   return (
-    <div className="w-full py-16 px-4 h-screen ">
+    <div className="w-full py-16 px-4 lg:h-screen ">
       <div className="values-container max-w-[1240px] mx-auto ">
         <div className="my-4 text-center">
           <h1 className="font-bold text-xl md:text-2xl lg:text-3xl">
@@ -14,7 +14,7 @@ const Values = () => {
           </p>
         </div>
 
-        <div className="cards-container grid grid-cols-3">
+        <div className="cards-container grid grid-cols-3 gap-6">
           <div className="card bg-[#FEF6F3] text-center py-4 px-4 text-[#5C5958] col-span-3 lg:col-span-1">
             <img
               className="rounded-[15px] inline"
