@@ -29,7 +29,7 @@ export const EmblaCarousel = () => {
           />
           <div className="absolute">
             <h1 className="text-center text-[50px] font-bold md:text-[80px] lg:text-[120px]">
-              FASHIONINSTA
+              FASHIONISTA
             </h1>
             <p className="text-center text-xl md:text-2xl lg:text-3xl">
               Yout fashion brand
@@ -43,7 +43,7 @@ export const EmblaCarousel = () => {
           />
           <div className="absolute">
             <h1 className="text-center text-[50px] font-bold md:text-[80px] lg:text-[120px]">
-              FASHIONINSTA
+              FASHIONISTA
             </h1>
             <p className="text-center text-xl md:text-2xl lg:text-3xl">
               Yout fashion brand
@@ -57,7 +57,7 @@ export const EmblaCarousel = () => {
           />
           <div className="absolute">
             <h1 className="text-center text-[50px] font-bold md:text-[80px] lg:text-[120px]">
-              FASHIONINSTA
+              FASHIONISTA
             </h1>
             <p className="text-center text-xl md:text-2xl lg:text-3xl">
               Yout fashion brand
@@ -80,7 +80,6 @@ export const EmblaCarousel = () => {
     </div>
   );
 };
-
 
 // 310000
 // FE5F38

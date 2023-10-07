@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.contact-form input{
+  outline: none;
+}
+
 .embla {
   overflow: hidden;
 }
