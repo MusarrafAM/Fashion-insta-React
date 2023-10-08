@@ -1,5 +1,7 @@
+import Blog from "./components/Blog";
 import Collections from "./components/Collections";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import JoinUs from "./components/JoinUs";
 import ShopNow from "./components/ShopNow";
@@ -14,6 +16,8 @@ function App() {
       <ShopNow />
       <Contact />
       <JoinUs />
+      <Blog />
+      <Footer />
     </div>
   );
 }
