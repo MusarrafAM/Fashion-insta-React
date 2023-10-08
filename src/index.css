@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-.contact-form input{
+input{
   outline: none;
 }
 
