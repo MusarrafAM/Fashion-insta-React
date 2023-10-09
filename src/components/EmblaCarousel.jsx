@@ -24,7 +24,7 @@ export const EmblaCarousel = () => {
       <div className="embla__container text-white">
         <div className="embla__slide relative flex items-center justify-center">
           <img
-          className="object-cover"  
+          // className="object-cover"  
             src="https://images.pexels.com/photos/5864264/pexels-photo-5864264.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
           />
