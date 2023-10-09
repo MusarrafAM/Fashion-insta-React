@@ -4,17 +4,17 @@ const Values = () => {
   return (
     <div className="w-full py-16 px-4 lg:h-screen ">
       <div className="values-container max-w-[1240px] mx-auto ">
-        <div className="my-4 text-center">
-          <h1 className="font-bold text-xl md:text-2xl lg:text-3xl">
+        <div className="headings text-center mx-auto">
+          <h1 className="md:text-5xl text-4xl font-bold mb-5">
             Top Values For You
           </h1>
-          <p>
-            The fashion service offers innovative and unique styles that go
-            beyond conventional fashion trends.
+          <p className="md:text-xl text-lg">
+            Fashion service offers innovative and unique styles that go beyond{" "}
+            <br /> conventional fashion trends.
           </p>
         </div>
 
-        <div className="cards-container grid grid-cols-3 gap-6">
+        <div className="cards-container mt-10 grid grid-cols-3 gap-6">
           <div className="card bg-[#FEF6F3] text-center py-4 px-4 text-[#5C5958] col-span-3 lg:col-span-1">
             <img
               className="rounded-[15px] inline"

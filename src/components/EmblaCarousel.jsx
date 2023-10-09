@@ -24,6 +24,7 @@ export const EmblaCarousel = () => {
       <div className="embla__container text-white">
         <div className="embla__slide relative flex items-center justify-center">
           <img
+          className="object-cover"  
             src="https://images.pexels.com/photos/5864264/pexels-photo-5864264.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
           />
@@ -38,6 +39,7 @@ export const EmblaCarousel = () => {
         </div>
         <div className="embla__slide relative flex items-center justify-center">
           <img
+          // className="object-cover"
             src="https://media.istockphoto.com/id/671217220/photo/clothes-hang-on-clothing-rack.jpg?b=1&s=612x612&w=0&k=20&c=CV3UxN3sIUD37QTlnZsnACSdntpkvwNXTRizzX25kdw="
             alt=""
           />
@@ -52,6 +54,7 @@ export const EmblaCarousel = () => {
         </div>
         <div className="embla__slide relative flex items-center justify-center">
           <img
+          // className="object-cover"
             src="https://images.pexels.com/photos/5709665/pexels-photo-5709665.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
           />
