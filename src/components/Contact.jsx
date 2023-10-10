@@ -118,7 +118,9 @@ const Contact = () => {
               </div>
               <p className="text-left pl-2">
                 Email address <br />
-                <a href="mailto:example@email.com">contact@fashionista.com</a>
+                <a href="mailto:contact@fashionista.com">
+                  contact@fashionista.com
+                </a>
               </p>
             </div>
 
@@ -163,7 +165,7 @@ const Contact = () => {
                     </span>
                   )}
                   <input
-                    className="w-[300px] pl-[50px] md:pl-1"
+                    className=" pl-[50px] md:pl-1"
                     type="text"
                     name="lastName"
                     value={formData.lastName}
@@ -195,7 +197,7 @@ const Contact = () => {
                     </span>
                   )}
                   <input
-                    className="w-[350px] pl-[50px] md:pl-1"
+                    className=" pl-[50px] md:pl-1"
                     type="text"
                     name="phoneNumber"
                     value={formData.phoneNumber}
@@ -256,7 +258,7 @@ const Contact = () => {
                 <div className=" border border-black my-2d h-[100px] row-span-2 col-span-2 pl-1">
                   <p>Message</p>
                   <input
-                    className="w-[400px] pl-[50px] md:pl-1"
+                    className="pl-[50px] md:pl-1"
                     type="textarea"
                     name="message"
                     value={formData.message}
