@@ -138,7 +138,7 @@ const Contact = () => {
           <div className="contact-form lg:col-span-2 px-10">
             <form onSubmit={handleSubmit}>
               <div className=" md:grid grid-row-6 grid-cols-2 gap-3">
-                <div className=" border border-black my-2 md:pl-1">
+                <div className=" border border-black my-2 pl-1">
                   <p>First name</p>
                   {errors.firstName && (
                     <span className="text-red-500 font-medium">
@@ -155,7 +155,7 @@ const Contact = () => {
                   />
                 </div>
 
-                <div className="border border-black my-2 md:pl-1 ">
+                <div className="border border-black my-2 pl-1 ">
                   <p>Last name</p>
                   {errors.lastName && (
                     <span className="text-red-500 font-medium">
@@ -171,7 +171,7 @@ const Contact = () => {
                     placeholder="Enter your last name here"
                   />
                 </div>
-                <div className="border border-black my-2 md:pl-1">
+                <div className="border border-black my-2 pl-1">
                   <p>Email address</p>
                   {errors.email && (
                     <span className="text-red-500 font-medium">
@@ -187,7 +187,7 @@ const Contact = () => {
                     placeholder="Enter your email here"
                   />
                 </div>
-                <div className="border border-black my-2 md:pl-1">
+                <div className="border border-black my-2 pl-1">
                   <p>Phone number</p>
                   {errors.phoneNumber && (
                     <span className="text-red-500 font-medium">
@@ -204,7 +204,7 @@ const Contact = () => {
                   />
                 </div>
 
-                <div className=" border border-black my-2 md:pl-1">
+                <div className=" border border-black my-2 pl-1">
                   <p>Country</p>
                   {errors.country && (
                     <span className="text-red-500 font-medium ">
@@ -220,7 +220,7 @@ const Contact = () => {
                     placeholder="Enter your country here here"
                   />
                 </div>
-                <div className="border border-black my-2 md:pl-1">
+                <div className="border border-black my-2 pl-1">
                   <p>Gender</p>
                   {errors.gender && (
                     <span className="text-red-500 font-medium">
