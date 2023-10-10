@@ -135,7 +135,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="contact-form lg:col-span-2 px-10">
+          <div className="contact-form lg:col-span-2 px-2">
             <form onSubmit={handleSubmit}>
               <div className=" md:grid grid-row-6 grid-cols-2 gap-3">
                 <div className=" border border-black my-2 pl-1">

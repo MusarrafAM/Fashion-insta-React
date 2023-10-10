@@ -11,23 +11,23 @@ const Footer = () => {
             <input className="bg-[#320001] w-[300px]" type="text" placeholder="Your email here"/>
             <div className="bg-[#FE5F38] cursor-pointer rounded-full pt-[3px] pl-[2px] w-[25px] h-[25px]"><FiArrowUpRight size={20}/></div>
             </div>
-          <div className="social-links flex text-[#8C7476] mt-20 justify-center lg:justify-normal">
-            <div className="each-link py-1 px-4 my-2 cursor-pointer rounded-full border border-[#8C7476] flex justify-between hover:bg-[#FE5F38] hover:text-white duration-200">
+          <div className="social-links grid grid-rows-2 grid-cols-2 md:flex flex-col md:flex-row text-[#8C7476] mt-20 justify-center lg:justify-normal">
+            <div className="each-link  py-1 px-4 my-2 cursor-pointer rounded-full border border-[#8C7476] flex justify-between hover:bg-[#FE5F38] hover:text-white duration-200">
               Whatsapp
               <FiArrowUpRight className=" ml-1 mt-[6px]"/>
             </div>
 
-            <div className="each-link py-1 px-4 my-2 cursor-pointer rounded-full border border-[#8C7476] flex justify-between hover:bg-[#FE5F38] hover:text-white duration-200">
+            <div className="each-link  py-1 px-4 my-2 cursor-pointer rounded-full border border-[#8C7476] flex justify-between hover:bg-[#FE5F38] hover:text-white duration-200">
               Email
               <FiArrowUpRight className=" ml-1 mt-[6px]"/>
             </div>
 
-            <div className="each-link py-1 px-4 my-2 cursor-pointer rounded-full border border-[#8C7476] flex justify-between hover:bg-[#FE5F38] hover:text-white duration-200">
+            <div className="each-link  py-1 px-4 my-2 cursor-pointer rounded-full border border-[#8C7476] flex justify-between hover:bg-[#FE5F38] hover:text-white duration-200">
               Twitter
               <FiArrowUpRight className=" ml-1 mt-[6px]"/>
             </div>
 
-            <div className="each-link py-1 px-4 my-2 cursor-pointer rounded-full border border-[#8C7476] flex justify-between hover:bg-[#FE5F38] hover:text-white duration-200">
+            <div className="each-link  py-1 px-4 my-2 cursor-pointer rounded-full border border-[#8C7476] flex justify-between hover:bg-[#FE5F38] hover:text-white duration-200">
               Instagram
               <FiArrowUpRight className=" ml-1 mt-[6px]"/>
             </div>
