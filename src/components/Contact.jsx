@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { MdLocalPhone, MdOutlineAlternateEmail } from "react-icons/md";
 import { HiLocationMarker } from "react-icons/hi";
 import validator from "validator";
+import Swal from "sweetalert2";
 
 const Contact = () => {
   const [errors, setErrors] = useState({});
@@ -61,7 +62,13 @@ const Contact = () => {
     setErrors(validationErrors);
 
     if (Object.keys(validationErrors).length === 0) {
-      alert("Form Submitted succesfully");
+      Swal.fire({
+        position: "center",
+        icon: "success",
+        title: `Thank you, ${formData.firstName} ${formData.lastName}`,
+        showConfirmButton: true,
+        timer: 3000,
+      });
 
       // Clear input fileds
       setFormData({
