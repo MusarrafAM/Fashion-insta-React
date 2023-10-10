@@ -83,11 +83,13 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="contact-form lg:col-span-2">
+          {/* grid grid-cols-2 */}
+          <div className="contact-form lg:col-span-2 px-10">
             <form onSubmit={handleSubmit}>
-              <div className="mx-auto border border-black my-4">
+              <div className=" border border-black my-4">
                 <p>First name</p>
                 <input
+                  className="w-[300px] pl-[50px]"
                   type="text"
                   name="firstName"
                   value={formData.firstName}
@@ -98,6 +100,7 @@ const Contact = () => {
               <div className="mx-auto border border-black my-4">
                 <p>Last name</p>
                 <input
+                  className="w-[300px] pl-[50px]"
                   type="text"
                   name="lastName"
                   value={formData.lastName}
@@ -108,6 +111,7 @@ const Contact = () => {
               <div className="mx-auto border border-black my-4">
                 <p>Email address</p>
                 <input
+                  className="w-[300px] pl-[50px]"
                   type="text"
                   name="email"
                   value={formData.email}
@@ -118,6 +122,7 @@ const Contact = () => {
               <div className="mx-auto border border-black my-4">
                 <p>Phone number</p>
                 <input
+                  className="w-[350px] pl-[50px]"
                   type="text"
                   name="phoneNumber"
                   value={formData.phoneNumber}
@@ -127,26 +132,36 @@ const Contact = () => {
               </div>
               <div className="mx-auto border border-black my-4">
                 <p>Gender</p>
-                <input
-                  type="radio"
-                  value="male"
-                  name="gender"
-                  checked={formData.gender === "male"}
-                  onChange={handleChange}
-                />
-                Male
-                <input
-                  type="radio"
-                  value="female"
-                  name="gender"
-                  checked={formData.gender === "female"}
-                  onChange={handleChange}
-                />
-                Female
+                <div className="flex items-center justify-center">
+                  <div className="pr-10">
+                    <input
+                      className="mr-2"
+                      type="radio"
+                      value="male"
+                      name="gender"
+                      checked={formData.gender === "male"}
+                      onChange={handleChange}
+                    />
+                    Male
+                  </div>
+                  <div>
+                    <input
+                      className="mr-2"
+                      type="radio"
+                      value="female"
+                      name="gender"
+                      checked={formData.gender === "female"}
+                      onChange={handleChange}
+                    />
+                    Female
+                  </div>
+                </div>
               </div>
-              <div className="mx-auto border border-black my-4">
+
+              <div className="mx-auto border border-black my-4 h-[100px]">
                 <p>Message</p>
                 <input
+                  className="w-[300px] pl-[20px]"
                   type="textarea"
                   name="message"
                   value={formData.message}
