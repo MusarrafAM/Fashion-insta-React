@@ -28,7 +28,7 @@ const Blog = () => {
                     Clothing
                   </h1>
                 </div>
-                <button className="absolute bottom-[20px] right-[20px] bg-black text-white md:p-2 md:px-4 p-1 text-sm md:text-xl">
+                <button className="absolute bottom-[10px] md:bottom-[5px] right-[5px] md:right-[20px]  bg-black text-white md:p-2 md:px-4 p-1 text-sm md:text-xl">
                   Explore
                 </button>
               </div>
@@ -43,7 +43,7 @@ const Blog = () => {
                     Fashion Designing
                   </h1>
                 </div>
-                <button className="absolute bottom-[20px] right-[20px] bg-black text-white md:p-2 md:px-4 p-1 text-sm md:text-xl">
+                <button className="absolute bottom-[10px] md:bottom-[5px] right-[5px] md:right-[20px] bg-black text-white md:p-2 md:px-4 p-1 text-sm md:text-xl">
                   Explore
                 </button>
               </div>
@@ -60,7 +60,7 @@ const Blog = () => {
                     Fashion Accessories
                   </h1>
                 </div>
-                <button className="absolute bottom-[20px] right-[20px] bg-black text-white md:p-2 md:px-4 p-1 text-sm md:text-xl">
+                <button className="absolute bottom-[10px] md:bottom-[5px] right-[5px] md:right-[20px] bg-black text-white md:p-2 md:px-4 p-1 text-sm md:text-xl">
                   Explore
                 </button>
               </div>
@@ -75,7 +75,7 @@ const Blog = () => {
                     Cosmetics
                   </h1>
                 </div>
-                <button className="absolute bottom-[20px] right-[20px] bg-black text-white md:p-2 md:px-4 p-1 text-sm md:text-xl">
+                <button className="absolute bottom-[10px] md:bottom-[5px] right-[5px] md:right-[20px] bg-black text-white md:p-2 md:px-4 p-1 text-sm md:text-xl">
                   Explore
                 </button>
               </div>
@@ -90,7 +90,7 @@ const Blog = () => {
             <div className="absolute">
               <h1 className="top-0 text-white md:text-3xl text-xl">Modelling</h1>
             </div>
-            <button className="absolute bottom-[20px] right-[20px] bg-black text-white md:p-2 md:px-4 p-1 text-sm md:text-xl">
+            <button className="absolute bottom-[10px] md:bottom-[5px] right-[5px] md:right-[20px] bg-black text-white md:p-2 md:px-4 p-1 text-sm md:text-xl">
               Explore
             </button>
           </div>
