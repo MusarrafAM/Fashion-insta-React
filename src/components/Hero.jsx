@@ -11,7 +11,7 @@ const Hero = () => {
           Fashion is a form of self expression. It's a way to show the world who
           you are and what you stand for
         </p>
-        <h1 className="text-center font-bold text-xl md:text-2xl  col-span-3 lg:col-span-1 ">
+        <h1 className="text-center font-bold text-xl md:text-2xl  col-span-3 lg:col-span-1 my-auto">
           CHOOSE YOUR FASHION STYLE
         </h1>
         <div className="hidden lg:block lg:col-span-1 text-right p-1">
