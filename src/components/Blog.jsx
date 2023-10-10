@@ -22,6 +22,7 @@ const Blog = () => {
                   className="w-[100%] h-[100%] object-cover"
                   src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Vjb25kJTIwaGFuZCUyMGNsb3RoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
                   alt=""
+                  srcSet={`https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Vjb25kJTIwaGFuZCUyMGNsb3RoZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60?w=248&fit=crop&auto=format&dpr=2 2x`}
                 />
               </div>
               <div className="col-span-3 m-2">
