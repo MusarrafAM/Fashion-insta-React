@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { MdLocalPhone, MdOutlineAlternateEmail } from "react-icons/md";
 import { HiLocationMarker } from "react-icons/hi";
-import validator from "validator";
-import Swal from "sweetalert2";
+import validator from "validator"; //Validatin package
+import Swal from "sweetalert2"; //Popup package
 
 const Contact = () => {
   const [errors, setErrors] = useState({});

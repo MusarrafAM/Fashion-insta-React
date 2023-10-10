@@ -15,9 +15,9 @@ const Collections = () => {
           </p>
         </div>
 
-        <div className="container-image-gallery my-10 grid grid-cols-3">
+        <div className="container-image-gallery my-10 grid md:grid-cols-3">
           <div className="left grid grid-rows-5 grid-cols-3">
-            <div className="row-span-5 mr-2 my-10">
+            <div className="row-span-5 mr-2 my-2 md:my-10">
               <img
                 className="w-[100%] h-[100%] object-cover rounded-md hover:scale-110 duration-300"
                 src="https://images.unsplash.com/photo-1621072156002-e2fccdc0b176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVuJTIwd2VhcmluZyUyMGZhc2hpb24lMjBkcmVzc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
@@ -48,7 +48,7 @@ const Collections = () => {
             />
           </div>
           <div className="right grid grid-rows-5 grid-cols-3">
-            <div className="row-span-5 order-1 ml-2 my-10">
+            <div className="row-span-5 order-1 ml-2 my-2 md:my-10">
               <img
                 className="w-[100%] h-[100%] object-cover rounded-md hover:scale-110 duration-300"
                 src="https://sofashionitaly.files.wordpress.com/2021/11/screenshot_20211207-124053_samsung-internet.jpg?w=401"
