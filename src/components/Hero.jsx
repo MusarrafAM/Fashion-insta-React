@@ -6,12 +6,12 @@ const Hero = () => {
   return (
     <div className="hero bg-[#FEF6F3] w-full">
       <Navbar />
-      <div className="grid grid-cols-3 py-10 max-w-[1240px] mx-auto">
-        <p className="hidden lg:block p-1 max-w-[300px]">
+      <div className="grid md:grid-cols-3 py-10 max-w-[1240px] mx-auto ">
+        <p className="md:hidden lg:block p-1 max-w-[300px] order-3 md:order-none ml-[100px] md:ml-0 mt-10 md:mt-0 ">
           Fashion is a form of self expression. It's a way to show the world who
           you are and what you stand for
         </p>
-        <h1 className="text-center font-bold text-xl md:text-2xl col-span-3 lg:col-span-1">
+        <h1 className="text-center font-bold text-xl md:text-2xl  col-span-3 lg:col-span-1 ">
           CHOOSE YOUR FASHION STYLE
         </h1>
         <div className="hidden lg:block lg:col-span-1 text-right p-1">
