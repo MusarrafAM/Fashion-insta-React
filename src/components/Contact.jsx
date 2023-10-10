@@ -87,13 +87,17 @@ const Contact = () => {
 
   return (
     <div className="w-full  lg:mt-20">
-      <div className="py-10 max-w-[1240px] mx-auto text-center">
-        <h1 className="md:text-5xl text-4xl font-bold mb-5">Contact us</h1>
-        <p className="md:text-xl text-lg">
+      <div className="py-10 max-w-[1240px] mx-auto ">
+        <h1 className="md:text-5xl text-4xl font-bold mb-5 text-center">
+          Contact us
+        </h1>
+        <p className="md:text-xl text-lg text-center">
           There are various types of fashion shops that cater to different
           styles,
         </p>
-        <p className="md:text-xl text-lg">budget, and target markets.</p>
+        <p className="md:text-xl text-lg text-center">
+          budget, and target markets.
+        </p>
 
         <div className="container-form-socials grid lg:grid-cols-3 my-10">
           <div className="cotact-socials">
@@ -134,7 +138,7 @@ const Contact = () => {
           <div className="contact-form lg:col-span-2 px-10">
             <form onSubmit={handleSubmit}>
               <div className=" md:grid grid-row-6 grid-cols-2 gap-3">
-                <div className=" border border-black my-2">
+                <div className=" border border-black my-2 md:pl-1">
                   <p>First name</p>
                   {errors.firstName && (
                     <span className="text-red-500 font-medium">
@@ -142,7 +146,7 @@ const Contact = () => {
                     </span>
                   )}
                   <input
-                    className="w-[300px] pl-[50px]"
+                    className="w-[300px] pl-[50px] md:pl-1"
                     type="text"
                     name="firstName"
                     value={formData.firstName}
@@ -151,7 +155,7 @@ const Contact = () => {
                   />
                 </div>
 
-                <div className="border border-black my-2">
+                <div className="border border-black my-2 md:pl-1 ">
                   <p>Last name</p>
                   {errors.lastName && (
                     <span className="text-red-500 font-medium">
@@ -159,7 +163,7 @@ const Contact = () => {
                     </span>
                   )}
                   <input
-                    className="w-[300px] pl-[50px]"
+                    className="w-[300px] pl-[50px] md:pl-1"
                     type="text"
                     name="lastName"
                     value={formData.lastName}
@@ -167,7 +171,7 @@ const Contact = () => {
                     placeholder="Enter your last name here"
                   />
                 </div>
-                <div className="border border-black my-2">
+                <div className="border border-black my-2 md:pl-1">
                   <p>Email address</p>
                   {errors.email && (
                     <span className="text-red-500 font-medium">
@@ -175,7 +179,7 @@ const Contact = () => {
                     </span>
                   )}
                   <input
-                    className="w-[300px] pl-[50px]"
+                    className="w-[300px] pl-[50px] md:pl-1"
                     type="text"
                     name="email"
                     value={formData.email}
@@ -183,7 +187,7 @@ const Contact = () => {
                     placeholder="Enter your email here"
                   />
                 </div>
-                <div className="border border-black my-2">
+                <div className="border border-black my-2 md:pl-1">
                   <p>Phone number</p>
                   {errors.phoneNumber && (
                     <span className="text-red-500 font-medium">
@@ -191,7 +195,7 @@ const Contact = () => {
                     </span>
                   )}
                   <input
-                    className="w-[350px] pl-[50px]"
+                    className="w-[350px] pl-[50px] md:pl-1"
                     type="text"
                     name="phoneNumber"
                     value={formData.phoneNumber}
@@ -200,15 +204,15 @@ const Contact = () => {
                   />
                 </div>
 
-                <div className=" border border-black my-2">
+                <div className=" border border-black my-2 md:pl-1">
                   <p>Country</p>
                   {errors.country && (
-                    <span className="text-red-500 font-medium">
+                    <span className="text-red-500 font-medium ">
                       {errors.country}
                     </span>
                   )}
                   <input
-                    className="w-[350px] pl-[50px]"
+                    className="w-[350px] pl-[50px] md:pl-1"
                     type="text"
                     name="country"
                     value={formData.country}
@@ -216,7 +220,7 @@ const Contact = () => {
                     placeholder="Enter your country here here"
                   />
                 </div>
-                <div className="border border-black my-2">
+                <div className="border border-black my-2 md:pl-1">
                   <p>Gender</p>
                   {errors.gender && (
                     <span className="text-red-500 font-medium">
@@ -249,10 +253,10 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div className=" border border-black my-2 h-[100px] row-span-2 col-span-2">
+                <div className=" border border-black my-2d h-[100px] row-span-2 col-span-2 pl-1">
                   <p>Message</p>
                   <input
-                    className="w-[400px] pl-[40px]"
+                    className="w-[400px] pl-[50px] md:pl-1"
                     type="textarea"
                     name="message"
                     value={formData.message}

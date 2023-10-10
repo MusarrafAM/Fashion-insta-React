@@ -21,7 +21,9 @@ const Values = () => {
               src="https://media.istockphoto.com/id/157505335/photo/applauding.webp?b=1&s=170667a&w=0&k=20&c=RXGIGGirj6l-ZZXxp4NF9BnoDe0jG45fvE5ik5y2H3o="
               alt=""
             />
-            <h2 className="font-bold mt-6 pb-2">Fashion Event Management</h2>
+            <h2 className="font-bold mt-6 pb-2 text-2xl">
+              Fashion Event Management
+            </h2>
             <p className="px-12 pb-2">
               Fashion Event management services specialize in organizing fashion
               shows, product launchs, and other f...
@@ -37,7 +39,7 @@ const Values = () => {
               src="https://images.pexels.com/photos/5709665/pexels-photo-5709665.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
             />
-            <h2 className="font-bold mt-6 pb-2">Personal styling</h2>
+            <h2 className="font-bold mt-6 pb-2 text-2xl">Personal styling</h2>
             <p className="px-12 pb-2">
               These services provide personaluzd fashion advice and styling
               guidance based on your preferences. body typ...
@@ -54,7 +56,9 @@ const Values = () => {
               alt=""
               // https://images.pexels.com/photos/7679814/pexels-photo-7679814.jpeg?auto=compress&cs=tinysrgb&w=600
             />
-            <h2 className="font-bold mt-6 pb-2">Fashion Subscription Boxes</h2>
+            <h2 className="font-bold mt-6 pb-2 text-2xl">
+              Fashion Subscription Boxes
+            </h2>
             <p className="px-12 pb-2">
               Subscription boxes like FabFitFun and Birchbox offer curated
               selections of fashion and beauty products deliv...
